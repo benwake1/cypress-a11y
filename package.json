@@ -1,0 +1,34 @@
+{
+  "name": "cypress-a11y-suite",
+  "version": "1.0.0",
+  "description": "Standalone Cypress + axe-core + Lighthouse accessibility suite, demoed against example.cypress.io",
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "cy:run": "cypress run --browser chrome",
+    "cy:run:scans": "cypress run --browser chrome --spec cypress/e2e/01-page-scans.cy.js",
+    "cy:run:semantics": "cypress run --browser chrome --spec cypress/e2e/02-document-semantics.cy.js",
+    "cy:run:keyboard": "cypress run --browser chrome --spec cypress/e2e/03-keyboard.cy.js",
+    "cy:run:interactive": "cypress run --browser chrome --spec cypress/e2e/04-interactive-states.cy.js",
+    "cy:run:visual": "cypress run --browser chrome --spec cypress/e2e/05-visual-adaptation.cy.js",
+    "cy:run:components": "cypress run --browser chrome --spec cypress/e2e/06-components.cy.js",
+    "cy:run:discovered": "cypress run --browser chrome --spec cypress/e2e/07-discovered-pages.cy.js",
+    "cy:run:lighthouse": "cypress run --browser chrome --spec cypress/e2e/08-lighthouse.cy.js",
+    "cy:run:links": "cypress run --browser chrome --spec cypress/e2e/09-links-and-images.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "@testing-library/cypress": "^10.1.3",
+    "axe-core": "^4.14.0",
+    "cypress": "^15.21.1",
+    "cypress-axe": "^1.7.0",
+    "cypress-real-events": "^1.15.1",
+    "mochawesome": "^8.1.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

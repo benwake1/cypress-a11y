@@ -1,0 +1,22 @@
+[
+  { "name": "Home", "path": "/" },
+  { "name": "Querying", "path": "/commands/querying" },
+  { "name": "Traversal", "path": "/commands/traversal" },
+  { "name": "Actions (forms)", "path": "/commands/actions" },
+  { "name": "Window", "path": "/commands/window" },
+  { "name": "Viewport", "path": "/commands/viewport" },
+  { "name": "Location", "path": "/commands/location" },
+  { "name": "Navigation", "path": "/commands/navigation" },
+  { "name": "Assertions", "path": "/commands/assertions" },
+  { "name": "Misc", "path": "/commands/misc" },
+  { "name": "Connectors", "path": "/commands/connectors" },
+  { "name": "Aliasing", "path": "/commands/aliasing" },
+  { "name": "Waiting", "path": "/commands/waiting" },
+  { "name": "Network requests", "path": "/commands/network-requests" },
+  { "name": "Files", "path": "/commands/files" },
+  { "name": "Storage", "path": "/commands/storage" },
+  { "name": "Cookies", "path": "/commands/cookies" },
+  { "name": "Spies, stubs and clocks", "path": "/commands/spies-stubs-clocks" },
+  { "name": "Utilities", "path": "/utilities" },
+  { "name": "Cypress API", "path": "/cypress-api" }
+]
